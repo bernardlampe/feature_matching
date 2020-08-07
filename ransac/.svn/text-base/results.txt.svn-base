@@ -1,0 +1,34 @@
+------------------------------
+Iteration #: 0
+Number of Outliers: 20
+Fitting Error: 33.3269
+***** Found outlier set with minimum cardinality
+------------------------------
+Iteration #: 1
+Number of Outliers: 10
+Fitting Error: 20.3246
+***** Found outlier set with minimum cardinality
+------------------------------
+Iteration #: 2
+Number of Outliers: 56
+Fitting Error: 2.49311e-12
+------------------------------
+Iteration #: 3
+Number of Outliers: 55
+Fitting Error: 5.13222
+------------------------------
+Iteration #: 4
+Number of Outliers: 55
+Fitting Error: 7.96795
+
+Optimal Homography:
+------------------------------
+        0.58987       -0.005181         -156.34 
+       0.024112         0.57505         -6.7818 
+     9.7246e-05     -8.4059e-06         0.54046 
+
+Summary:
+------------------------------
+Number of Inliers: 50
+Number of Outliers: 10
+Fitting Error: 20.325
