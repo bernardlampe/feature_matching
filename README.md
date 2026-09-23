@@ -1,4 +1,4 @@
-A review of feature matching, built around the [HPatches](https://hpatches.github.io) sequences dataset
+A review of feature matching, built around the [HPatches](https://hpatches.github.io) sequences dataset. It grew out of a homework assignment in computer vision.
 
 ```sh
 python3 -m pip install -r requirements.txt
