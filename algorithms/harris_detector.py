@@ -1,8 +1,4 @@
 """Harris corner detector.
-
-Port of assignments/harris/harris.m including its fixes:
-  - scalar rmin/rmax via flattening (min(R(:)) semantics)
-  - negative responses zeroed before non-maximum suppression
 """
 
 import math

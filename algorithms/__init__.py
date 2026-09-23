@@ -11,9 +11,5 @@ course topic:
   essential, stitcher
 - utilities: common (image/color helpers), visualize,
   transform_suite (synthetic transforms + GT correspondences)
-- legacy CLI: harris (MATLAB-ported standalone harris demo)
 
-Import as e.g. `from algorithms import ransac` (course_demo/tests do
-this via sys.path manipulation), or run the package demo from the repo
-root with `python3 course_demo.py [outdir]`.
 """

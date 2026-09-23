@@ -1,11 +1,6 @@
-"""Harris corner detection -- numpy port of assignments/harris/harris.m.
+"""Harris corner detection -- numpy port of harris.m in this directory.
 
-Faithful port including the seven fixes applied to harris.m:
-  - scalar rmin/rmax via flattening (min(R(:)) semantics)
-  - negative responses zeroed before non-maximum suppression
-  - elementwise inverse of the diagonal eigenvalue matrix
-
-Usage: python3 algorithms/harris.py <image> <sigma> <winSize> <threshold> [outdir]
+Usage: python3 assignments/harris/harris.py <image> <sigma> <winSize> <threshold> [outdir]
 """
 import math
 import os
@@ -125,8 +120,5 @@ def _draw_outputs(fname, im_th, corners, outdir):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) not in (5, 6):
-        sys.exit("usage: harris.py <image> <sigma> <winSize> <threshold> "
-                 "[outdir]")
-    harris(sys.argv[1], float(sys.argv[2]), int(sys.argv[3]),
-           float(sys.argv[4]), sys.argv[5] if len(sys.argv) == 6 else ".")
+    sys.exit("usage: harris.py <image> <sigma> <winSize> <threshold> <outdir>")
+    harris(sys.argv[1], float(sys.argv[2]), int(sys.argv[3]), float(sys.argv[4]), sys.argv[5])
