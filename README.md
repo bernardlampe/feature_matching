@@ -1,8 +1,10 @@
 A review of feature matching, built around the [HPatches](https://hpatches.github.io) sequences dataset. It grew out of a homework assignment in computer vision.
 
 ```sh
-python3 -m pip install -r requirements.txt
-python3 stitch_tool.py pano.png img_a.png img_b.png img_c.png
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python stitch_tool.py pano.png img_a.png img_b.png img_c.png
 ```
 
 ## Review includes:
